@@ -8,7 +8,7 @@ export default function Hero() {
     { icon: Github, href: "https://github.com/manimegalaikavin22-debug", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/manimegalai-v-02a561327/", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "manimegalaikavin22@gmail.com", label: "Email" },
+    { icon: Mail, href:"mailto:manimegalaikavin22@gmail.com", label: "Email" },
   ];
 
   return (
