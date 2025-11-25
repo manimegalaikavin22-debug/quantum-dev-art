@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { User, Mail, Phone, MapPin } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function About() {
   const personalInfo = [
@@ -33,8 +34,12 @@ export default function About() {
             >
               <div className="glass-card p-8 rounded-2xl">
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent p-1">
-                  <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                    <User size={80} className="text-primary" />
+                  <div className="w-full h-full rounded-full overflow-hidden">
+                    <img 
+                      src={profilePhoto} 
+                      alt="Profile" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
                 <div className="space-y-4">
