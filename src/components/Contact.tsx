@@ -17,14 +17,14 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" },
+    { icon: Mail, label: "Email", value: "manimegalaikavin22@gmail.com", href: "mailto:manimegalaikavin22@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+91 7010045820", href: "tel:+15551234567" },
+    { icon: MapPin, label: "Location", value: "Tamilnadu,India", href: "#" },
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/manimegalaikavin22-debug", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/manimegalai-v-02a561327/", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
   ];
 
