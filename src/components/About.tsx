@@ -4,10 +4,10 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function About() {
   const personalInfo = [
-    { icon: User, label: "Name", value: "Your Name" },
-    { icon: Mail, label: "Email", value: "your.email@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA" },
+    { icon: User, label: "Name", value: "MANIMEGALAI V" },
+    { icon: Mail, label: "Email", value: "manimegalaikavin22@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+91 7010045820" },
+    { icon: MapPin, label: "Location", value: "Tamilnadu,India" },
   ];
 
   return (
